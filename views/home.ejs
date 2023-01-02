@@ -31,7 +31,7 @@
     <section>
         <h2>Usage</h2>
         <p>To get quiz questions, send a <span>GET</span> request to <span>/questions</span> endpoint.</p>
-        <p>To post answers and get score, send a <span>POST</span> request with body consisting of an array called <span>answers</span> to <span>/answers</span> endpoint.</p>
+        <p>To post answers and get score, send a <span>POST</span> request with <span>Content-Type</span> of <span>application/x-www-form-urlencoded</span> and body consisting of an array called <span>answers</span> to <span>/answers</span> endpoint.</p>
         <p>Look at the below request body for example.</p>
         <code><pre>{
     answers: [1, 0, 2, 0, 2]
