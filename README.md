@@ -1,3 +1,3 @@
 # quiz-api
 
-https://quiz-api.onrender.com/
+https://quiz-api-0a7v.onrender.com/
